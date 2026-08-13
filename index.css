@@ -686,10 +686,13 @@ body {
   color: #e8752b;
 }
 @media (min-width: 300px) and (max-width: 768px) {
+  .main {
+    width: 395px;
+  }
   .new {
     position: relative;
-    width: 511px;
-    height: 410vh;
+    width: 520px;
+    height: auto;
     margin-top: -30px;
     border-top-left-radius: 50% 50px;
     border-top-right-radius: 50% 50px;
@@ -847,14 +850,14 @@ body {
     position: relative;
     background-color: black;
     height: 683px;
-    width: 500px;
+    width: 510px;
     right: 230px;
     top: 750px;
   }
   .new-image img {
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 60px;
     width: 450px;
     height: auto;
   }
