@@ -928,8 +928,12 @@ body {
     font-size: 19px;
   }
   .footer {
+    overflow: hidden;
+    width: 555px;
     top: 14%;
+    right: 1px;
     gap: 25px;
+
     text-align: center;
   }
   .footer h1 {
