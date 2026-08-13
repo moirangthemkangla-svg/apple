@@ -695,7 +695,7 @@ body {
   .new {
     position: relative;
     width: 520px;
-    height: auto;
+    height: 410vh;
     min-height: 500px;
     margin-top: -30px;
     border-top-left-radius: 50% 50px;
