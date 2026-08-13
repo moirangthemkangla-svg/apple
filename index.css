@@ -687,12 +687,16 @@ body {
 }
 @media (min-width: 300px) and (max-width: 768px) {
   .main {
-    width: 395px;
+    width: 100%;
+    min-height: 100vh;
+
+    box-sizing: border-box;
   }
   .new {
     position: relative;
     width: 520px;
     height: auto;
+    min-height: 500px;
     margin-top: -30px;
     border-top-left-radius: 50% 50px;
     border-top-right-radius: 50% 50px;
@@ -847,6 +851,8 @@ body {
     font-size: 190px;
   }
   .new-image {
+    overflow: hidden;
+    object-fit: cover;
     position: relative;
     background-color: black;
     height: 683px;
@@ -910,10 +916,10 @@ body {
     position: relative;
     bottom: -40px;
     left: 220px;
-    color: white;
+    color: black;
     width: 150px;
     height: 50px;
-    border: 2px solid white;
+    background-color: white;
   }
   .camera h2 {
     display: none;
