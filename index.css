@@ -872,6 +872,8 @@ body {
     display: none;
   }
   .card {
+    display: none;
+    overflow: hidden;
     left: 25px;
     top: 380px;
   }
@@ -930,8 +932,8 @@ body {
   }
   .footer {
     overflow: hidden;
-    width: 555px;
-    top: 14%;
+    width: 100%;
+    top: 0;
     right: 1px;
     gap: 25px;
 
