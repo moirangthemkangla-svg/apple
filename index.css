@@ -695,8 +695,9 @@ body {
   .new {
     position: relative;
     width: 520px;
+    min-height: 0;
+    height: auto;
 
-    min-height: 100vh;
     margin-top: -30px;
     border-top-left-radius: 50% 50px;
     border-top-right-radius: 50% 50px;
