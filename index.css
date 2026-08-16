@@ -687,7 +687,7 @@ body {
 }
 @media (min-width: 300px) and (max-width: 768px) {
   .main {
-    width: 100%;
+    width: 400px;
     min-height: 100vh;
 
     box-sizing: border-box;
@@ -696,7 +696,7 @@ body {
     position: relative;
     width: 520px;
 
-    min-height: 300px;
+    min-height: 200px;
     margin-top: -30px;
     border-top-left-radius: 50% 50px;
     border-top-right-radius: 50% 50px;
